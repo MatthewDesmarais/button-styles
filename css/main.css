@@ -1,13 +1,69 @@
 html {
-  box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
+    box-sizing: border-box;
+    font: normal 100%/1.5 sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 div {
-  padding: .5rem;
-  text-align: center;
+    padding: .5rem;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 3px;
+    display: inline-block;
+    padding: .4em .75em .3em;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+}
+
+.btn-subtle {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.btn-subtle:hover {
+    background-color: #666;
+}
+
+.btn-ghost {
+    background-color: #fff;
+    color: #000;
+    border: 3px #000 solid;
+}
+
+.btn-ghost:hover {
+    background-color: #666;
+}
+
+.btn-warning {
+    background-color: #f33;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #933;
+}
+
+.btn-big {
+    font-size: 1.5rem;
+}
+
+.btn-small {
+    font-size: 0.875rem;
 }
